@@ -1,0 +1,76 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 190px;
+    width: 100%;
+    background-color:white;
+    border-bottom: solid 5px rgb(242, 242, 242);
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    margin-left: 10px;
+    width:70px;
+
+}
+
+
+
+#logo img{
+    padding-right: 500px;
+    width:300px;
+    position: absolute;
+}
+
+#profile{
+    width: 400px;
+    padding-right: 100px;
+}
+
+
+.menuItem{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 10px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+#find h3{
+    width: 230px;
+}
+
+#messenger h3{
+    margin-right: 20px;
+}
+
+#profile h3{
+    margin-right: 20px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+.menuItem2{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logout{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    flex: 12;
+    justify-content: flex-end;
+    left: 200px;
+    margin-right: 50px;
+    margin-left: 100px
+}
