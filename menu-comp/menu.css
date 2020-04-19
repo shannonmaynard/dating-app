@@ -12,15 +12,12 @@
 img{
     margin-left: 10px;
     width:70px;
-
 }
 
 
-
 #logo img{
-
     width:300px;
-    position: absolute;
+    height: auto;
 }
 
 #profile{
@@ -68,7 +65,7 @@ h3{
     display: flex;
     margin-left: 10%;
     align-items: center;
-    flex: 12;
+    flex: 10;
     justify-content: flex-end;
     left: 200px;
     margin-right: 50px;
