@@ -1,0 +1,187 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#blue_section,
+#photo_placeholder,
+#setting_interface,
+#menu_setting,
+#black_btn,
+#white_section,
+#settings,
+.setting_item,
+#settings_section1,
+#profile_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: #FF78AB;
+}
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+#blue_section {
+    background-color: #E6F5FC;
+    flex: 4;
+    flex-direction: column;
+}
+#photo_placeholder {
+    flex-direction: column;
+    flex: 1;
+    max-height: 300px;
+}
+
+#photo_placeholder img {
+    max-width: 50%;
+    height: auto;
+}
+
+#username_line {
+    width: 50%;
+    height: 40px;
+    background-image: linear-gradient(to right, rgba(255,120,171,1), rgba(117,179,220,1), rgba(138, 209, 241, 1));
+}
+
+#username_line p {
+    font-size: 24pt;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#setting_interface {
+    flex-direction: column;
+    flex: 1;
+    max-height: 200px;
+}
+
+#menu_setting {
+    flex-direction: column;
+    flex: 1;
+    max-height: 150px;
+}
+#settings_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    padding: 5px 40px 5px 10px;
+    width: 100%;
+    background-color: #8AD1F1;
+    border-radius: 3px;
+    max-height: 30px;
+}
+
+#account_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    padding: 5px 40px 5px 10px;
+    width: 100%;
+    background-color: white;
+    max-height: 30px;
+    border-radius: 2px;
+}
+
+#black_btn {
+    flex: 1;
+    max-height: 40px;
+    background-color: #373837;
+    border-radius: 2px;
+    margin: 0px 0px 20px 0px;
+}
+
+#black_btn p {
+    font-size: 14pt;
+    padding: 20px;
+    color: white;
+}
+
+#white_section {
+    background-color: white;
+    flex: 6;
+    flex-direction: column;
+}
+
+#settings {
+    flex-direction: column;
+}
+
+#settings_section2 {
+    flex: 1;
+    margin: 20px;
+    /* height: 150px; */
+}
+
+.setting_item {
+    border: 1px solid #CACACA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    border-radius: 25px;
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    max-height: 80px;
+}
+
+.item {
+    flex:8;
+}
+
+.status {
+    flex:1;
+}
+
+#settings_section1{
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+
+#settings_section1 p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#settings_section1 img {
+    position: fixed;
+    top: 10px;
+    right: 58%;
+    width: 15px;
+}
+
+#profile_input {
+    flex-direction: column;
+}
+
+.profile_inputs {
+    border: 1px solid #BCBCBC;
+    margin: 5px;
+    border-radius: 3px;
+    min-height: 20px;
+}
+#input_bio {
+    height: 80px;
+}
+
+#social_media {
+    display: flex;
+}
+
+#social_media img {
+    margin: 0px 20px 20px 0px;
+}
+
+
+
+
