@@ -1,0 +1,47 @@
+#input-box{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    font-size: 60px;
+}
+
+#input-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border: 3px solid whitesmoke;
+}
+
+#input input{
+    opacity: 50%;   
+}
+
+
+#prompt img{
+    height: 150px;
+}
+
+#emoticon img{
+    height: 100px;
+}
+
+#send{
+    display: flex;
+    flex: 10;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#send button{
+    background-color: #8AD1F1;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
