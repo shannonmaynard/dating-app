@@ -6,6 +6,7 @@
     width: 100vw;
     height: 100vh;
 }
+
 #pink-box{
     width:39.5%;
     height: 5%;
@@ -56,11 +57,19 @@
     top:700px;
 }
 
-.form-horizontal{
+.form-horizontal1{
     position: absolute;
     right: 90px;
     top:200px;
-    display: inline-block;
+}
+
+.form-horizontal2{
+    position: absolute;
+    right: 190px;
+    top:200px;
+}
+.form-group2{
+    padding-bottom: 90px;
 }
 
 .form-group{
@@ -69,11 +78,6 @@
 
 .form-group input{
     padding: 20px;
-    width :400px;
+    width :100px;
 }
 
-#diectionsText{
-    position: absolute;
-    right: 120px;
-    top:70px;
-}
