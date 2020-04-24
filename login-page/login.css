@@ -22,13 +22,16 @@ p {
 
 #blue_section {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(138, 209, 241, 1) );
+    background:linear-gradient(180deg, rgba(255,255,255,1) 22%, rgba(138,209,241,1) 100%);
     flex: 5;
 }
 
 #blue_section img {
-    min-width: 500px;
+    position: absolute;
+    width: 40%;
     height: auto;
+    align-items: center;
+    align-content: center;
 }
 
 #white_section {
@@ -71,6 +74,7 @@ p {
     border-radius: 3px;
     padding: 0 20px;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 #signup_btn {
@@ -82,6 +86,7 @@ p {
     border-radius: 3px;
     padding: 0 20px;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 #input_username, #input_password {
@@ -89,4 +94,12 @@ p {
     border-radius: 3px;
     min-height: 25px;
     margin: 5px;
+    padding: 20px;
+    width: 300px;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:visited { text-decoration: none; color: white; }
