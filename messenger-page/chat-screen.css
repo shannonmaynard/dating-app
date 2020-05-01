@@ -9,6 +9,8 @@
     position: relative;
     font-family: Roboto, sans-serif;
     font-size: 18;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .user1-screen{
@@ -17,10 +19,12 @@
     height: fit-content;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .user1-screen img{
     height: 400px;
+    
 }
 
 .user2-screen img{
@@ -41,7 +45,7 @@
     margin-bottom: 100px;
     display: flex;
     height: fit-content;
-    width: 30%;
+    width: 40%;
     padding-left: 70px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -59,7 +63,7 @@
     margin-bottom: 100px;
     display: flex;
     height: fit-content;
-    width: 30%;
+    width: 40%;
     padding: 10px;
     background: rgb(255,120,171);
     background: linear-gradient(90deg, rgba(255,120,171,1) 0%, rgba(117,179,220,1) 60%);
