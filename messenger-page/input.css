@@ -45,10 +45,20 @@
 #send button{
     background-color: #8AD1F1;
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-right: 150px;
     padding-left: 150px;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+}
+
+#emo-img{
+    margin-left: 60px;
+    height: 70px;
+}
+
+.emoticon{
+    margin-top: 10px;
+    height: 120px;
 }
