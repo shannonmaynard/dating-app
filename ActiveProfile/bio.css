@@ -87,7 +87,8 @@ footer {
 
 #setting_interface {
     flex-direction: row;
-    height:80px;
+    height:100px;
+
 }
 
 .like_pass {
