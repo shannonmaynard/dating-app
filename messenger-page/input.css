@@ -1,8 +1,10 @@
 #input-box{
     display: flex;
     width: 100%;
-    height: 500px;
+    padding: 100px;
     font-size: 60px;
+    word-wrap: break-word;
+    padding-bottom: 15%;
 }
 
 #input-bar{
@@ -15,10 +17,13 @@
     border: 0px;
 }
 
+
 #input input{
     opacity: 50%;
     border-top: 0px;  
-    margin-top: 10px; 
+    margin-top: 10px;
+    word-wrap: break-word;
+    width: 100%;
 }
 
 #icons-msg-page{

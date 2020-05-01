@@ -15,19 +15,21 @@
 
 .user-square{
     display: flex;
-    width: 80%;
+    width: 70%;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    
 }
 
 .user-square img{
     margin-top: 30px;
     width: 60%;
     height: auto;
+    border-radius: 50%;
 }
