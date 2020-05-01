@@ -5,6 +5,7 @@
     font-size: 60px;
     word-wrap: break-word;
     padding-bottom: 15%;
+
 }
 
 #input-bar{
@@ -24,6 +25,7 @@
     margin-top: 10px;
     word-wrap: break-word;
     width: 100%;
+    font-size: 44px;
 }
 
 #icons-msg-page{
