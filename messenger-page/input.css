@@ -18,14 +18,21 @@
     opacity: 50%;   
 }
 
-
-#prompt img{
+#icons-msg-page{
+    display: flex;
+    flex-direction: row;
     height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+
 }
 
-#emoticon img{
-    height: 100px;
+
+#icons-msg-page img{
+    height: 70%;
+    width: auto;
 }
+ 
 
 #send{
     display: flex;
