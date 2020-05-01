@@ -6,6 +6,8 @@
     <link href="ap.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <title>Active Profile</title>
 </head>
@@ -52,21 +54,33 @@
         <div id="main">
             <div class="arrows" id="arrow_left"><img src="./SVG/left_arrow.svg"/></div>
             <div id="profile_check">
-                <img src="./SVG/guy.svg"/>
+                <div id="profile_btn_box">
+                    <a href="./bio.html"><button class="bottom_btns" id="profile_btn">View Profile</button></a>
+                </div>
+                <div class="img_guy"><img id="guy_img" src="./SVG/guy.svg"/></div>
                 <div id="name_age_box">
-                    <img src="./SVG/profile_rectangle.svg"/>
+                    <img id="name_box" src="./SVG/profile_rectangle.svg"/>
                     <div id="name_age_info">Scott Davidson 20</div>
                 </div>
-                <div #id="bottom_buttons">
-                    <button class="bottom_btns pass_like">Pass</button>
-                    <a href="./bio.html"><button class="bottom_btns" id="profile_btn">Profile</button></a>
-                    <button class="bottom_btns pass_like">Like</button>
+                <div id="bottom_buttons">
+                    <!-- <button class="bottom_btns" id="pass">Pass</button>
+                    <button class="bottom_btns" id="like">Like</button> -->
+                    <div class="thumbs_btns" id="thumbs_down_box">
+                        <img id="thumbs_down" src="SVG/hands.svg" />
+                    </div>
+                    <div class="thumbs_btns" id="thumbs_up_box">
+                        <img id="thumbs_up" src="SVG/thumbs_up.svg" />
+                    </div>
+
                 </div>
             </div>
     
             <div class="arrows" id="arrow_right"><img src="./SVG/right_arrow.svg"/></div>
         </div>
 
+    </div>
+    <div id="footer">
+            
     </div>
     <script src="script.js"></script>
 </body>

@@ -1,5 +1,23 @@
+body, html {
+    background-color:#E6F5FC;
+    margin:0;
+    padding:0;
+}
+
 #active_profile {
     display:flex;
+}
+
+#side {
+    flex:1;
+    margin-right:1px;
+}
+
+#main {
+    display:flex;
+    flex:2;
+    position:relative;
+    top:30px;
 }
 
 #filter {
@@ -27,11 +45,13 @@
     position: relative;
     left:-30px;
     top:5px;
+    cursor:pointer;
 }
 
 .filter_item {
     border:1px solid #BCBCBC;
     font-family: 'Montserrat', sans-serif;
+    background-color:#FFF;
     font-size:16pt;
     border-radius:25px;
     width:250px;
@@ -48,22 +68,20 @@
     flex:1;
 }
 
-#main {
-    display:flex;
-}
-
 #profile_check {
     display:flex;
     flex-direction:column;
-    position:relative;
+    margin-left:25px;
+    margin-right:25px;
+    /* position:relative;
     left:35%;
-    top:15%;
+    top:15%; */
+    align-items: center;
 }
 
 #name_age_box {
-    margin-top:-6px;
     position:relative;
-    left:7.5%;
+    bottom:10px;
 }
 
 #name_age_info {
@@ -81,6 +99,7 @@
     font-weight:bold;
     font-size:14pt;
     position:relative;
+    bottom:40px;
     padding: 10px 70px 10px 70px;
     margin: 0px 5px 0px 5px;
     border-radius:5px;
@@ -88,17 +107,94 @@
     cursor:pointer;
 }
 
-.pass_like {
-    background-color: #4C4C4C;
+.material-icons {
+    margin:10px;
+    padding:10px;
+    color:blue;
+}
+
+
+#pass {
+    background-color:red;
+}
+
+#like {
+    background-color:green;
 }
 
 #profile_btn {
-    background-color: #8AD1F1;
+    background-color:rgb(241, 145, 182);
+    color: rgb(238, 238, 238);
+    border:1px solid rgba(189, 189, 189, 0.6);
+    position:relative;
+    bottom:10px;
 }
 
 .arrows {
     position:relative;
-    top:55%;
+    top:35%;
     cursor:pointer;
-    left:35%;
+    left:0;
+    width:50px;
+    height:40px;
+}
+
+#arrow_left {
+    margin-right:50px;
+}
+
+#arrow_right {
+    margin-left:50px;
+}
+
+#guy_img {
+    border-radius:15px 15px 0 0;
+}
+
+#bottom_buttons {
+    display:inline-flex;
+    position:relative;
+    bottom:55px;
+}
+
+.thumbs_btns {
+    height:40px;
+    width:40px;
+    margin:10px;
+    cursor:pointer;
+}
+
+#thumbs_up_box {
+    position:relative;
+    left:20px;
+}
+
+#thumbs_up {
+    background-color: #1AAAE4;
+    padding:20px;
+    border-radius:20px;
+    box-shadow: 3px 0px 3px 0px#1AAAE4;
+}
+
+#thumbs_down_box {
+    position:relative;
+    right:60px;
+}
+
+/* rgb(159, 117, 180) */
+
+#thumbs_down {
+    background-color: #1AAAE4;
+    padding:20px;
+    border-radius:20px;
+    box-shadow: 3px 0px 3px 0px #1AAAE4;
+
+}
+
+#footer {
+    background-color: #FF78AB ;
+    width:100%;
+    height:40px;
+    position:fixed;
+    bottom:0;
 }

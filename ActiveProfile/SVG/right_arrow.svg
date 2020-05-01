@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="37.278" height="59.645" viewBox="0 0 37.278 59.645">
-  <path id="iconmonstr-arrow-25" d="M5,7.456,12.6,0,42.278,29.822,12.6,59.645,5,52.189,27.367,29.822Z" transform="translate(-5)" fill="#373837"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 37.3 59.6" style="enable-background:new 0 0 37.3 59.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#77CEED;}
+</style>
+<path id="iconmonstr-arrow-25" class="st0" d="M0,7.5L7.6,0l29.7,29.8L7.6,59.6L0,52.2l22.4-22.4L0,7.5z"/>
 </svg>

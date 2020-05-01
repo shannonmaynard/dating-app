@@ -5,6 +5,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="bio.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
@@ -18,10 +20,10 @@
             </div>
             <div id="setting_interface">
                     <div id="account_btn">
-                        Like
+                        <img class="like_pass" id="thumbs_down" src="SVG/hands.svg" />
                     </div>
                     <div id="settings_btn">
-                        Dislike
+                        <img class="like_pass" id="thumbs_up" src="SVG/thumbs_up.svg" />
                     </div>
             </div>
         </div>
@@ -34,8 +36,10 @@
                     </div>
                     <div id="profile_input">
                         <div class="bio"><b>Scott Davidson</b></div>
-                        <div class="bio">20</div>
-                        <div class="bio">I like long walks on the beach.</div>
+                        <div class="bio"><b>20</b></div>
+                        <div class="bio" id="bio_description">I like long walks on the beach. 
+                            I also like going to the pub with friends.
+                            I took a gap year after high school graduation and went backpacking in Europe! Ask me about my trip :)</div>
                         <!-- <input type="text" id="input_name" class="profile_inputs" placeholder="Scott Davidson" size="20">
                         <input type="text" id="input_age" class="profile_inputs" placeholder="20" size="20">
                         <input type="text" id="input_bio" class="profile_inputs" placeholder="I like long walks on the beach" size="50"> -->
