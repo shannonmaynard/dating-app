@@ -46,3 +46,9 @@
     right: 90px;
     top:700px;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:visited { text-decoration: none; color: white; }

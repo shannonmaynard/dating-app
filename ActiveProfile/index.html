@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ap.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <title>Active Profile</title>
+</head>
+<body>
+    <div id="active_profile">
+        <div id="side">
+            <div id="filter">
+                <div><img src="./SVG/filter.svg"/></div>
+                    <div id="filter_title">Filter</div>
+                <div id="silder">
+                    <img id="rectangle" src="./SVG/rectangle.svg"/>
+                    <img id="circle" onclick="ChangeSlider()" src="./SVG/circle.svg"/>
+                    <div id="filter_status">On</div>
+                </div>
+            </div>
+            <div id="filter_items">
+                <div class="filter_item">
+                    <div class="item">Smoking</div>
+                    <div class="status"><img src="./SVG/check.svg"/></div>
+                </div>
+                <div class="filter_item">
+                    <div class="item">Drinking</div>
+                    <div class="status"><img src="./SVG/ex.svg"/></div>
+                </div>
+                <div class="filter_item">
+                    <div class="item">Active</div>
+                    <div class="status"><img src="./SVG/check.svg"/></div>
+                </div>
+                <div class="filter_item">
+                    <div class="item">Politics</div>
+                    <div class="status"><img src="./SVG/check.svg"/></div>
+                </div>
+                <div class="filter_item">
+                    <div class="item">Religion</div>
+                    <div class="status"><img src="./SVG/ex.svg"/></div>
+                </div>
+                <div class="filter_item">
+                    <div class="item">Pets</div>
+                    <div class="status"><img src="./SVG/check.svg"/></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="arrows" id="arrow_left"><img src="./SVG/left_arrow.svg"/></div>
+            <div id="profile_check">
+                <div id="profile_btn_box">
+                    <a href="./bio.html"><button class="bottom_btns" id="profile_btn">View Profile</button></a>
+                </div>
+                <div class="img_guy"><img id="guy_img" src="./SVG/guy.svg"/></div>
+                <div id="name_age_box">
+                    <img id="name_box" src="./SVG/profile_rectangle.svg"/>
+                    <div id="name_age_info">Scott Davidson 20</div>
+                </div>
+                <div id="bottom_buttons">
+                    <!-- <button class="bottom_btns" id="pass">Pass</button>
+                    <button class="bottom_btns" id="like">Like</button> -->
+                    <div class="thumbs_btns" id="thumbs_down_box">
+                        <img id="thumbs_down" src="SVG/hands.svg" />
+                    </div>
+                    <div class="thumbs_btns" id="thumbs_up_box">
+                        <img id="thumbs_up" src="SVG/thumbs_up.svg" />
+                    </div>
+
+                </div>
+            </div>
+    
+            <div class="arrows" id="arrow_right"><img src="./SVG/right_arrow.svg"/></div>
+        </div>
+
+    </div>
+    <div id="footer">
+            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -77,3 +77,9 @@
     right: 120px;
     top:70px;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:visited { text-decoration: none; color: white; }
