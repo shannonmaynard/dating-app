@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 15%;
-    
-    background-color:#E6F5FC;
+    background:linear-gradient(180deg, rgb(177, 211, 255) 22%, rgba(138,209,241,1) 100%);
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
