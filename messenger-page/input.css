@@ -12,12 +12,13 @@
     width: 100%;
     height: 150px;
     background:linear-gradient(180deg, rgb(243, 249, 255) 22%, rgb(231, 244, 255) 100%);
-    border-bottom: 0px;
+    border: 0px;
 }
 
 #input input{
     opacity: 50%;
-    border-top: 0px;   
+    border-top: 0px;  
+    margin-top: 10px; 
 }
 
 #icons-msg-page{
@@ -47,12 +48,9 @@
 #send button{
 
     background:linear-gradient(180deg, rgb(179, 217, 252) 22%, rgb(138, 209, 241) 100%);
-
+    height: 150px;
     color: white;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    padding-right: 150px;
-    padding-left: 150px;
+    width: 350px;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     border: 0px;
