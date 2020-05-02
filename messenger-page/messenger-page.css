@@ -1,6 +1,11 @@
 #middle{
     display: flex;
+    position: relative;
+
+
 }
+
+
 
 #find h3{
     margin-right: -50px;
